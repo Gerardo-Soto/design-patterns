@@ -45,6 +45,7 @@ export class Bird extends Animal {
   }
 }
 
+/*
 const animal = new Dog('Noelio', 'Fola');
 const bird = new Bird('Tucan');
 
@@ -52,9 +53,11 @@ animal.move();
 animal.moveInheritance();
 console.log(animal.greeting());
 animal.speak(3);
+*/
 //console.log(animal.name);
-console.log(animal.owner);
+/*console.log(animal.owner);
 
 
 bird.fly(5);
 bird.move();
+*/

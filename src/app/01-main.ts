@@ -4,7 +4,7 @@
 
 import axios from "axios";
 
-import { Product } from './models/products.model';
+import { Product } from './models/product.model';
 
 // anonymous function
 // (() => {})();
