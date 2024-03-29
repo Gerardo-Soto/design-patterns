@@ -57,7 +57,7 @@ class CorvetteCarFactory extends CarFactory{
   }
 }
 
-// use
+// create app factory
 function appFactory(factory) {
   const car = factory.makeCar();
   car.showCost();
@@ -78,5 +78,7 @@ function CreateFactory(type) {
   return new Factory();
 }
 
+// use factories
 appFactory(CreateFactory('chevy'));
 appFactory(CreateFactory('corvette'));
+
