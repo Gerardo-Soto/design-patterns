@@ -20,6 +20,8 @@ class BaseCar {
   showCost() {
     throw new Error('Method not implemented.');
   }
+
+
 }
 
 // step 2
